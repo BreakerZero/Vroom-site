@@ -7,13 +7,12 @@
 	<title>Vroom</title>
     <meta name="description" content="Téléchargez Vroom, c'est inclus avec votre code en ligne!">
     <meta name="viewport" content="width=device-width">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="js/jquery.min.js"></script>
-    <script src="js/popper.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/main.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <header>
@@ -25,13 +24,12 @@
           </button>
           <div class="collapse navbar-collapse" id="ftco-nav">
             <ul class="navbar-nav m-auto">
-                <li class="nav-item active"><a href="#" class="nav-link">Accueil</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Démonstration</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Règles & Fonctionnement</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Téléchargement</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Classement</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Réseaux</a></li>
-                <li class="nav-item"><a href="#" class="nav-link">Nous contacter</a></li>
+                <li class="nav-item active"><a href="index.php" class="nav-link">Accueil</a></li>
+                <li class="nav-item"><a href="site/demo.php" class="nav-link">Démonstration</a></li>
+                <li class="nav-item"><a href="site/rules.php" class="nav-link">Règles & Fonctionnement</a></li>
+                <li class="nav-item"><a href="site/download.php" class="nav-link">Téléchargement</a></li>
+                <li class="nav-item"><a href="site/classement.php" class="nav-link">Classement</a></li>
+                <li class="nav-item"><a href="site/question-and-contact.php" class="nav-link">Nous contacter</a></li>
             </ul>
           </div>
         </div>
@@ -39,40 +37,62 @@
         <br>
         <hr>
     </header>
-    <h1>Découvrez une nouvelle façon d'apprendre votre code !</h1>
+    <h1>Découvrez une nouvelle façon d'apprendre votre code avec le progamme Vroom !</h1>
     <main role="main">
     <div class="rule">
         <div class="sliderrule">
+            <a href="site/download.php">
             <figure>
             <img src="img/beta.jpg" alt="Beta"/>
             <img src="img/down.jpg" alt="Download"/>
             </figure>
+            </a>
         </div>
     </div>
     <div class="demo">
-        <div>
+        <div class="sliderdemo">
+            <a href="site/demo.php">
             <figure>
             <img src="img/demo.jpg" alt="Demo"/>
             <img src="img/visuel.jpg" alt="Visuel"/>
             </figure>
+            </a>
         </div>
     </div>
-    <div class="down"></div>
-    <div class="classe"></div>
+    <div class="down">
+        <div class="sliderdown">
+            <a href="site/rules.php">
+            <figure>
+            <img src="img/rule.jpg" alt="Règles"/>
+            </figure>
+            </a>
+        </div>
+    </div>
+    <div class="classe">
+        <div class="sliderdown">
+            <a href="site/question-and-contact.php">
+            <figure>
+            <img src="img/question.jpg" alt="Question"/>
+            </figure>
+            </a>
+        </div>
+    </div>
     <div class="cont">
         <div class="slidercont">
+            <a href="site/classement.php">
             <figure>
             <img src="img/trophy.jpg" alt="Trophé"/>
             <img src="img/augmentation.jpg" alt="Classement"/>
             </figure>
+            </a>
         </div>
     </div>
     <div class="res">
         <div class="sliderres">
             <figure>
-            <img src="img/reseaux1.jpg" alt="Facebook" />
-            <img src="img/reseaux2.jpg" alt="Twitter" />
-            <img src="img/reseaux3.jpg" alt="Mail" />
+            <a href="https://facebook.com"><img src="img/reseaux1.jpg" alt="Facebook"/></a>
+            <a href="https://twitter.com"><img src="img/reseaux2.jpg" alt="Twitter"/></a>
+            <a href="mailto:learningdrive.esi@gmail.com"><img src="img/reseaux3.jpg" alt="Mail"/></a>
             </figure>
         </div>
     </div>

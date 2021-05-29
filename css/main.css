@@ -187,11 +187,11 @@ footer{
 	100%{ left: 0%; }
 }
 
-.demo figure img {
+.sliderdemo figure img {
 	width: 51%;
 	height: auto;
 }
-.demo figure{
+.sliderdemo figure {
 	position: relative;
   width: 200%;
   margin: 0;
@@ -208,4 +208,19 @@ footer{
 	50% { top: 0%; }
 	90% { top: 0%; }
 	100%{ top: -50%; }
+}
+.sliderdown figure img {
+	width: 100%;
+	height: auto;
+}
+
+.sliderdown figure{
+	position: relative;
+  width: 100%;
+  margin: 0;
+  left: 0;
+ 	text-align: right;
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
 }

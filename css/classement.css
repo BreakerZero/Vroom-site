@@ -1,0 +1,43 @@
+table
+{
+    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    text-align: center;
+    margin: auto;
+}
+td
+{
+    border: 1px solid black;
+}
+hr{
+    width: 90%;
+    align-content: center;
+    display: grid;
+}
+h1{
+    text-align: center;
+    color: #ff8a00;
+    width: auto;
+}
+img{
+    height: 10%;
+    width: 10%;
+    border-right: none;
+    border-left: none;
+}
+table tr:nth-child(odd) td{
+    color: orange;
+    background-color: #ccc;
+}
+table tr:nth-child(even) td{
+    color: #ccc;
+    background-color: orange;
+}
+td{
+    background-size: cover;
+    background-position: center;
+    align-content: space-around;
+}
+table thead tr td{
+    color: black !important;
+    background-color: white !important;
+}
