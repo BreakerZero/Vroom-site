@@ -38,6 +38,8 @@
         <hr>
     </header>
     <h1>Classement des 25 meilleurs joueurs, félicitation à vous !</h1>
+    <br>
+    <br>
     <main>
     <?php
     $n=0;
