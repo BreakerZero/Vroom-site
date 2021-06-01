@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta http-equiv="Content-Type"/>
 	<title>Vroom</title>
+	<link rel="icon" type="image/png" href="../img/favicon.png"/>
     <meta name="description" content="Téléchargez Vroom, c'est inclus avec votre code en ligne!">
     <meta name="viewport" content="width=device-width">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
@@ -29,7 +30,7 @@
                 <li class="nav-item"><a href="../site/rules.php" class="nav-link">Règles & Fonctionnement</a></li>
                 <li class="nav-item"><a href="../site/download.php" class="nav-link">Téléchargement</a></li>
                 <li class="nav-item active"><a href="../site/classement.php" class="nav-link">Classement</a></li>
-                <li class="nav-item"><a href="../site/question-and-contact.php" class="nav-link">Nous contacter</a></li>
+                <li class="nav-item"><a href="../site/question-and-contact.php" class="nav-link">Questions Fréquentes & Contact</a></li>
             </ul>
           </div>
         </div>

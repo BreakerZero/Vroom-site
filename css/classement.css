@@ -1,8 +1,9 @@
 table
 {
-    border-collapse: collapse; /* Les bordures du tableau seront collées (plus joli) */
+    border-collapse: collapse;
     text-align: center;
     margin: auto;
+    font-size: xx-large;
 }
 td
 {
@@ -25,12 +26,12 @@ img{
     border-left: none;
 }
 table tr:nth-child(odd) td{
-    color: orange;
+    color: #ff8a00;;
     background-color: #ccc;
 }
 table tr:nth-child(even) td{
     color: #ccc;
-    background-color: orange;
+    background-color: #ff8a00;;
 }
 td{
     background-size: cover;
@@ -40,4 +41,11 @@ td{
 table thead tr td{
     color: black !important;
     background-color: white !important;
+}
+main{
+    background: linear-gradient(45deg, #ccc 1%, #fff 1%, #fff 49%, #ccc 49%, #ccc 51%, #fff 51%, #fff 99%, #ccc 99%);
+    background-size: 3px 3px;
+    background-position: 5px 5px;
+    height: 100%;
+    width: 100%;
 }
