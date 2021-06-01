@@ -7,6 +7,7 @@ h1{
     text-align: center;
     color: #ff8a00;
     width: auto;
+    font-size: calc(100vw/20) !important;
 }
 main{
     height: 100%;
@@ -24,6 +25,7 @@ strong{
 }
 h2{
     color: #FF6600;
+    font-size: calc(100vw/40) !important;
 }
 .question:nth-child(odd)
 {
@@ -76,4 +78,10 @@ input[name="email"]{
 }
 #subject{
     width: 20vw;
+}
+p{
+    font-size: calc(100vw/80) !important;
+}
+label{
+    font-size: calc(100vw/80) !important;
 }

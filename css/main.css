@@ -3,28 +3,23 @@
 	background-color: #555;
 	display: flex;
 	height: 5em;
-	min-width: 1524px;
-	min-width: 1525px;
 }
 hr{
 	width: 90%;
 	align-content: center;
 	display: grid;
-	min-width: 1524px;
-	max-width: 1525px;
+
 }
 h1{
 	text-align: center;
 	color: #ff8a00;
-	min-width: 1524px;
-	max-width: 1525px;
+	font-size: calc(100vw/40) !important;
 }
 main{
 	border: 2px solid #FF6600;
-	height: 35em;
-	width: 100%;
-	min-width: 1524px;
-	max-width: 100%;
+	height: calc(50vw/1.4);
+	width: 100vw;
+	
 	display: flex;
 	flex-wrap: wrap;
 	background: linear-gradient(45deg, #ff8a00 15%, #ccc 15%, #ccc 35%, #ff8a00 35%, #ff8a00 65%, #ccc 65%, #ccc 85%, #ff8a00 85%);
@@ -92,8 +87,6 @@ main{
 	box-shadow: 0px 0px 5px 5px whitesmoke;
 	height: 25.8%;
 	width: 9.5%;
-	min-height: 140px;
-	min-width: 140px;
 	margin-top: 0.5%;
 	margin-right: 1%;
 	margin-bottom: 1%;
@@ -145,8 +138,7 @@ main{
   flex-direction: column-reverse;
 }
 nav{
-	min-width: 1524px !important;
-	min-width: 1525px !important;
+	height: 10% !important;
 }
 @keyframes AutoSlide1 {
 	0% { top: 0%; }
@@ -156,10 +148,7 @@ nav{
 	100%{ top: 0%; }
 }
 footer{
-	min-width: 1524px;
-	max-width: 1525px;
 	height: 0em;
-	z-index: 1;
 	background-color: #ccc;
 
 }
