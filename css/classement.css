@@ -3,7 +3,6 @@ table
     border-collapse: collapse;
     text-align: center;
     margin: auto;
-    font-size: xx-large;
 }
 td
 {
@@ -20,7 +19,7 @@ h1{
     width: auto;
 }
 img{
-    width: 10%;
+    width: 15%;
     border-right: none;
     border-left: none;
 }
@@ -47,4 +46,10 @@ main{
     background-position: 5px 5px;
     height: 100%;
     width: 100%;
+}
+@media (orientation: landscape){
+    table{
+            font-size: xx-large;
+    }
+
 }

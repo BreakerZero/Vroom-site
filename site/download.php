@@ -38,14 +38,11 @@
         <br>
         <hr>
     </header>
-    <body>
     <h1>Page de téléchargement de Vroom</h1>
     <br>
     <br>
 <main>
-	<div id="download">
-		<a href="../exe/Vroom.exe" id="startdownload_link">cliquez ici</a>
-	</div>
+    <a href="../exe/Vroom.zip" id="startdownload_link">cliquez ici</a>
 </main>
 </body>
 </html>

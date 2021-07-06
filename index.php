@@ -38,7 +38,7 @@
         <br>
         <hr>
     </header>
-    <h1>Découvrez une nouvelle façon d'apprendre votre code avec le progamme Vroom !</h1>
+    <h1>Découvrez une nouvelle façon d'apprendre votre code avec le programme Vroom !</h1>
     <main role="main">
     <div class="rule">
         <div class="sliderrule">

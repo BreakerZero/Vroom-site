@@ -1,0 +1,82 @@
+hr{
+    width: 90%;
+    align-content: center;
+    display: grid;
+}
+h1{
+    text-align: center;
+    color: #ff8a00;
+    width: auto;
+}
+main{
+
+}
+.report{
+    border: 1px solid #FF6600;
+    color: black;
+    background-color: #ccc;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+strong{
+    color: #FF6600;
+}
+h2{
+    color: #FF6600;
+}
+option{
+    color: #FF6600;
+    background-color: #ccc;
+    border: 2px solid #FF6600;
+}
+select{
+    color: #FF6600;
+    background-color: #ccc;
+    border: 2px solid #FF6600;
+}
+input{
+    color: #FF6600;
+    background-color: #ccc;
+    border: 2px solid #FF6600;
+}
+textarea{
+    color: #FF6600;
+    overflow: auto;
+    width: 80vw;
+    height: 20vh;
+    border: 2px solid #FF6600;
+    background-color: #ccc;
+}
+.submit {
+    background-color: #ccc;
+    border: 2px solid #FF6600;
+}
+form{
+    margin-left: 5em;
+    margin-right: 5em;
+}
+input[name="nom"]{
+    width: 20vw;
+}
+input[name="email"]{
+    width: 20vw;
+}
+#subject{
+    width: 20vw;
+}
+p{
+}
+label{
+}
+main a {
+    transition: .3s all ease;
+    color: #ff8a00;
+    background-color: #ccc;
+    margin: 0 0 0 40vw;
+    display: inline-block;
+      font-size: calc(3vw);
+}
+main{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}

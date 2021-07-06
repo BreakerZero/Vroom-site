@@ -38,7 +38,7 @@
         <br>
         <hr>
     </header>
-    <h1>Classement des 25 meilleurs joueurs, félicitation à vous !</h1>
+    <h1>Classement des 25 meilleurs joueurs, félicitations à vous !</h1>
     <br>
     <br>
     <main>

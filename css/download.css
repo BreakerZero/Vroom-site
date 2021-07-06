@@ -1,25 +1,14 @@
-#download{
-	background-color: #FF6600;
-	margin: 0 auto;
-	width: 20vw;
-	height: 20vh;
-	display: flex;
-}
-#download a {
-	color: #ccc;
-	vertical-align: middle;
-	text-align: center;
-	display: inline-block;
-	font-size: calc(100vw/40) !important;
-	position: absolute;
-	margin: auto;
-	height: 20vh;
-	width: 20vw;
-	padding-top: calc(10vh - (100vw/40));
+main a {
+transition: .3s all ease;
+color: #ff8a00;
+background-color: #ccc;
+margin: 0 0 0 40vw;
+display: inline-block;
+padding: 3%;
+font-size: calc(3vw);
 }
 h1{
     text-align: center;
     color: #ff8a00;
     width: auto;
-    font-size: calc(100vw/40) !important;
 }

@@ -7,37 +7,16 @@ h1{
     text-align: center;
     color: #ff8a00;
     width: auto;
-    font-size: calc(100vw/20) !important;
 }
 main{
     height: 100%;
     width: 100%;
-}
-.report{
-    border: 1px solid #FF6600;
-    color: black;
-    background-color: #ccc;
-    margin-left: 5em;
-    margin-right: 5em;
 }
 strong{
     color: #FF6600;
 }
 h2{
     color: #FF6600;
-    font-size: calc(100vw/40) !important;
-}
-.question:nth-child(odd)
-{
-    text-align: left;
-    margin-left: 5em;
-    margin-right: 5em;
-}
-.question:nth-child(even)
-{
-    text-align: right;
-    margin-right: 5em;
-    margin-left: 5em;
 }
 option{
     color: #FF6600;
@@ -66,22 +45,67 @@ textarea{
     background-color: #ccc;
     border: 2px solid #FF6600;
 }
-form{
-    margin-left: 5em;
-    margin-right: 5em;
-}
 input[name="nom"]{
-    width: 20vw;
+    width: 30vw;
 }
 input[name="email"]{
-    width: 20vw;
+    width: 40vw;
+    margin-right: 5vw;
 }
 #subject{
-    width: 20vw;
+    width: 30vw;
 }
 p{
-    font-size: calc(100vw/80) !important;
 }
 label{
-    font-size: calc(100vw/80) !important;
+}
+@media (orientation: landscape){
+    form{
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.question:nth-child(odd)
+{
+    text-align: left;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+.question:nth-child(even)
+{
+    text-align: right;
+    margin-right: 15vh;
+    margin-left: 15vh;
+}
+.report{
+    border: 1px solid #FF6600;
+    color: black;
+    background-color: #ccc;
+    margin-left: 15vh;
+    margin-right: 15vh;
+}
+}
+@media (orientation: portrait){
+form{
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.question:nth-child(odd)
+{
+    text-align: left;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
+.question:nth-child(even)
+{
+    text-align: right;
+    margin-right: 5vh;
+    margin-left: 5vh;
+}
+.report{
+    border: 1px solid #FF6600;
+    color: black;
+    background-color: #ccc;
+    margin-left: 5vh;
+    margin-right: 5vh;
+}
 }
